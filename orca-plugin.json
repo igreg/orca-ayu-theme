@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 2,
+  "id": "ayu-theme-custom",
+  "publisher": "local",
+  "name": "Ayu for Orca (custom)",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "Local copy of stablyai Ayu with coloured inline code in chat.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "ayu-light",
+        "title": "Ayu Light (custom)",
+        "path": "themes/ayu-light.json"
+      },
+      {
+        "id": "ayu-mirage",
+        "title": "Ayu Mirage (custom)",
+        "path": "themes/ayu-mirage.json"
+      },
+      {
+        "id": "ayu-dark",
+        "title": "Ayu Dark (custom)",
+        "path": "themes/ayu-dark.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "ayu-light",
+        "title": "Ayu Light (custom)",
+        "path": "terminal/ayu-light.json"
+      },
+      {
+        "id": "ayu-mirage",
+        "title": "Ayu Mirage (custom)",
+        "path": "terminal/ayu-mirage.json"
+      },
+      {
+        "id": "ayu-dark",
+        "title": "Ayu Dark (custom)",
+        "path": "terminal/ayu-dark.json"
+      }
+    ]
+  },
+  "capabilities": []
+}
